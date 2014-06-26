@@ -1,0 +1,399 @@
+﻿Build started 27.06.2014 00:21:48.
+     1>Project "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\boomerang.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ic /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MSDOS /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "c\ansi-c-parser.cpp"
+         ansi-c-parser.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.y(332): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.y(535): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ic /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "c\ansi-c-scanner.cpp"
+         ansi-c-scanner.cpp
+     1>\\usr\local\lib\flexskel.cc(329): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(114): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(116): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(118): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(125): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(216): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\ansi-c.l(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt db\basicblock.cpp db\cfg.cpp codegen\chllcode.cpp db\dataflow.cpp db\exp.cpp frontend\pentiumfrontend.cpp db\proc.cpp db\signature.cpp db\statement.cpp type\type.cpp util\util.cpp db\visitor.cpp
+         visitor.cpp
+         util.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\util\util.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\util\util.cpp(171): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(315) : see declaration of 'open'
+     1>c:\users\osmanselçuk\documents\github\boomerang\util\util.cpp(186): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(315) : see declaration of 'open'
+     1>c:\users\osmanselçuk\documents\github\boomerang\util\util.cpp(206): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+     1>c:\users\osmanselçuk\documents\github\boomerang\util\util.cpp(253): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         type.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(741): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(762): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(780): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(812): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(823): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(839): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(854): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(861): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(867): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(872): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(993): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(1457): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\type.cpp(1476): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+         statement.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\statement.cpp(646): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         signature.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\signature.cpp(1423): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         proc.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(175): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(202): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(204): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(533): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(705): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(722): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(2398): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(2752): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(2755): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(2771): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(2778): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(2808): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\proc.cpp(4181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         pentiumfrontend.cpp
+         exp.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(581): warning C4244: 'argument' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(597): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(609): warning C4244: 'argument' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1043): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1390): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1404): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1428): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1439): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1471): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1478): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(1519): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\exp.cpp(2574): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+         dataflow.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\dataflow.cpp(659): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\dataflow.cpp(667): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         chllcode.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\codegen\chllcode.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\codegen\chllcode.cpp(1144): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\codegen\chllcode.cpp(1655): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+         cfg.cpp
+         basicblock.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\basicblock.cpp(292): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\basicblock.cpp(1591): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\basicblock.cpp(1593): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\basicblock.cpp(2381): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt loader\BinaryFile.cpp loader\BinaryFileFactory.cpp boomerang.cpp type\constraint.cpp type\dfa.cpp transform\generic.cpp db\insnameelem.cpp log.cpp db\managed.cpp frontend\njmcDecoder.cpp frontend\pentiumdecoder.cpp frontend\ppcdecoder.cpp frontend\ppcfrontend.cpp transform\rdi.cpp db\register.cpp db\rtl.cpp frontend\sparcdecoder.cpp frontend\sparcfrontend.cpp db\sslinst.cpp db\sslscanner.cpp frontend\st20decoder.cpp frontend\st20frontend.cpp codegen\syntax.cpp db\table.cpp
+         table.cpp
+         syntax.cpp
+         st20frontend.cpp
+         st20decoder.cpp
+         sslscanner.cpp
+     1>\\usr\local\lib\flexskel.cc(329): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(71): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(76): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(81): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(96): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(109): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(123): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(135): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(153): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(175): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(201): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(206): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(211): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(230): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(240): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(245): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(250): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(254): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(259): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(264): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(269): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslscanner.l(313): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         sslinst.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\sslinst.cpp(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\sslinst.cpp(325): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         sparcfrontend.cpp
+         sparcdecoder.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\frontend\machine\sparc\decoder.m(178): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         rtl.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\rtl.cpp(372): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         register.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\register.cpp(58): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\register.cpp(126): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\register.cpp(138): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         rdi.cpp
+         ppcfrontend.cpp
+         ppcdecoder.cpp
+         pentiumdecoder.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\frontend\machine\pentium\decoder.m(2234): warning C4101: 'MATCH_w_8_8' : unreferenced local variable
+         njmcDecoder.cpp
+         managed.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\managed.cpp(129): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\managed.cpp(256): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\managed.cpp(327): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\managed.cpp(548): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\managed.cpp(581): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         log.cpp
+         insnameelem.cpp
+         generic.cpp
+         dfa.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\dfa.cpp(191): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\dfa.cpp(203): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\dfa.cpp(609): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\dfa.cpp(710): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\dfa.cpp(713): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\dfa.cpp(1496): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         Generating Code...
+         Compiling...
+         constraint.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\constraint.cpp(43): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\constraint.cpp(90): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\type\constraint.cpp(570): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         boomerang.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(225): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\direct.h(140) : see declaration of 'mkdir'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(233): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\direct.h(140) : see declaration of 'mkdir'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(273): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(276): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(465): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(285) : see declaration of 'unlink'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(466): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(285) : see declaration of 'unlink'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(752): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(812): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(814): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(837): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(839): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(887): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(914): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(933): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(1186): warning C4244: 'initializing' : conversion from 'time_t' to 'int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(1187): warning C4244: 'initializing' : conversion from 'time_t' to 'int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(1188): warning C4244: 'initializing' : conversion from 'time_t' to 'int', possible loss of data
+     1>c:\users\osmanselçuk\documents\github\boomerang\boomerang.cpp(1253): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+         BinaryFileFactory.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\loader\binaryfilefactory.cpp(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         BinaryFile.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iwin32make\include /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt driver.cpp db\sslparser.cpp
+         sslparser.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslparser.y(1074): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslparser.y(1143): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\sslparser.y(1148): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         driver.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ic /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt frontend\frontend.cpp
+         frontend.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\frontend\frontend.cpp(193): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\osmanselçuk\documents\github\boomerang\frontend\frontend.cpp(195): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ic /Iinclude /Iwin32make\include /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt db\prog.cpp
+         prog.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\prog.cpp(318): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\direct.h(140) : see declaration of 'mkdir'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\prog.cpp(323): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\prog.cpp(360): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\prog.cpp(409): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\prog.cpp(503): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\prog.cpp(1004): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iwin32make\include /Iinclude /Iwin32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt db\xmlprogparser.cpp
+         xmlprogparser.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\xmlprogparser.cpp(910): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\xmlprogparser.cpp(973): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\xmlprogparser.cpp(1986): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\xmlprogparser.cpp(1990): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\xmlprogparser.cpp(2117): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\osmanselçuk\documents\github\boomerang\db\xmlprogparser.cpp(2141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\Debug\boomerang.exe) does not match the Linker's OutputFile property value (C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\boomerang.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"boomerang.exe" /INCREMENTAL /NOLOGO libexpat.lib gc_cpp2.lib dbghelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\boomerang.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\boomerang.lib" /MACHINE:X86 /SAFESEH "Debug\ansi-c-parser.obj"
+         "Debug\ansi-c-scanner.obj"
+         Debug\basicblock.obj
+         Debug\BinaryFile.obj
+         Debug\BinaryFileFactory.obj
+         Debug\boomerang.obj
+         Debug\cfg.obj
+         Debug\chllcode.obj
+         Debug\constraint.obj
+         Debug\dataflow.obj
+         Debug\dfa.obj
+         Debug\driver.obj
+         Debug\exp.obj
+         Debug\frontend.obj
+         Debug\generic.obj
+         Debug\insnameelem.obj
+         Debug\log.obj
+         Debug\managed.obj
+         Debug\njmcDecoder.obj
+         Debug\pentiumdecoder.obj
+         Debug\pentiumfrontend.obj
+         Debug\ppcdecoder.obj
+         Debug\ppcfrontend.obj
+         Debug\proc.obj
+         Debug\prog.obj
+         Debug\rdi.obj
+         Debug\register.obj
+         Debug\rtl.obj
+         Debug\signature.obj
+         Debug\sparcdecoder.obj
+         Debug\sparcfrontend.obj
+         Debug\sslinst.obj
+         Debug\sslparser.obj
+         Debug\sslscanner.obj
+         Debug\st20decoder.obj
+         Debug\st20frontend.obj
+         Debug\statement.obj
+         Debug\syntax.obj
+         Debug\table.obj
+         Debug\type.obj
+         Debug\util.obj
+         Debug\visitor.obj
+         Debug\xmlprogparser.obj
+         "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\Debug\BinaryFile.lib"
+         "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\Debug\ElfBinaryFile.lib"
+         "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\Debug\MachOBinaryFile.lib"
+     1>ansi-c-parser.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library Debug\boomerang.lib and object Debug\boomerang.exp
+         boomerang.vcxproj -> C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\Debug\boomerang.exe
+     1>Done Building Project "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\boomerang.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:34.18

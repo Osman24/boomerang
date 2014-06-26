@@ -1,0 +1,28 @@
+﻿Build started 27.06.2014 00:21:45.
+     1>Project "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\win32make\MachOBinaryFile\MachOBinaryFile.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32make\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_WINDOWS" /D _USRDLL /D "MACHOBINARYFILE_EXPORTS" /D "_WINDLL" /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\loader\MachOBinaryFile.cpp
+         MachOBinaryFile.cpp
+     1>c:\users\osmanselçuk\documents\github\boomerang\loader\machobinaryfile.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\osmanselçuk\documents\github\boomerang\loader\machobinaryfile.cpp(259): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Debug\MachOBinaryFile.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\Debug\BinaryFile.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\Debug\MachOBinaryFile.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Debug\MachOBinaryFile.lib" /MACHINE:X86 /SAFESEH /DLL Debug\MachOBinaryFile.obj
+         "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\Debug\BinaryFile.lib"
+     1>MachOBinaryFile.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>..\..\Debug\BinaryFile.lib(1): warning LNK4017: !<arch> statement not supported for the target platform; ignored
+     1>..\..\Debug\BinaryFile.lib(2): warning LNK4017: / statement not supported for the target platform; ignored
+     1>..\..\Debug\BinaryFile.lib(3): warning LNK4017: / statement not supported for the target platform; ignored
+     1>..\..\Debug\BinaryFile.lib(3): warning LNK4017: 4 statement not supported for the target platform; ignored
+            Creating library ..\..\Debug\MachOBinaryFile.lib and object ..\..\Debug\MachOBinaryFile.exp
+         MachOBinaryFile.vcxproj -> C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\win32make\MachOBinaryFile\..\..\Debug\MachOBinaryFile.dll
+       PostBuildEvent:
+         copy C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\win32make\MachOBinaryFile\..\..\Debug\MachOBinaryFile.dll C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\OsmanSelçuk\Documents\GitHub\boomerang\win32make\MachOBinaryFile\MachOBinaryFile.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13
